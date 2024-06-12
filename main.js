@@ -103,7 +103,6 @@ function elegirBebida() {
 
 elegirBebida()
 
-if(confirmacionDeMenu && confirmacionDeBebida)
-    alert(confirmacionDeMenu + confirmacionDeBebida + ", ¡excelente elección!")
+
 
 
