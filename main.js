@@ -16,11 +16,16 @@ function solicitarNombreCliente() {
     }
 
     else if (edad >= 13 && edad < 70) {
-        alert("Excelente, ya estamos más cerca")
+        alert("Excelente, vamos a elegir")
     }
 
     else if (edad >= 70) {
         alert("Felicitaciones, tenes un 10% de descuento")
+    }
+
+    else if (edad != Number) {
+        alert("Por favor, elige un número válido.");
+        solicitarNombreCliente()
     }
 
 }
@@ -102,6 +107,23 @@ function elegirBebida() {
 }
 
 elegirBebida()
+
+function saludarCliente() {
+    let pedidoFinal = alert("Una excelente decisión, " + nombreCliente)
+
+    let pago = confirm("¿Abona en efectivo?");
+
+    if (pago) {
+        alert("Excelente, tendrá un 15% de descuento en toda la carta");
+    }
+    else {
+        alert("perfecto, recibimos tarjeta o transferencia")
+    }
+}
+
+saludarCliente()
+
+let saludoFinal = alert("Que lo disfrutes, " + nombreCliente + ". Estamos para ayudarte.")
 
 
 

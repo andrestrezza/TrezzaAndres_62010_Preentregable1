@@ -1,0 +1,20 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d4e5db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ed0909;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #0c0c0c;
+    font-size: 16px;
+    line-height: 1.5;
+ }
